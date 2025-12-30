@@ -20,32 +20,28 @@
                 x:Name="addButton"
                 Grid.Row="0"
                 Grid.Column="0"
-                Margin="10"
                 Padding="10"
                 Content="Lägg till"
-                HorizontalAlignment="Center"
                 VerticalAlignment="Center" 
+                Background="LightGreen"
                 Click="addButton_Click"
                 />
             <Button
                 x:Name="clearButton"
                 Grid.Row="0"
                 Grid.Column="1"
-                Margin="10"
                 Padding="10"
                 Content="Rensa"
-                HorizontalAlignment="Center"
                 VerticalAlignment="Center"
+                Background="Pink"
                 Click="clearButton_Click"
                 />
             <TextBox 
                 x:Name="inputTextBox"
                 Grid.Row="0"
                 Grid.Column="2"
-                Margin="10"
                 Padding="10"
                 Text="Skriv något här..." 
-                HorizontalAlignment="Center" 
                 VerticalAlignment="Center" 
                 GotFocus="inputTextBox_GotFocus"
                 />
@@ -55,7 +51,6 @@
             Text=""
             Padding="10"
             Margin="10"
-            HorizontalAlignment="Center"
             VerticalAlignment="Top"
             BorderBrush="White"
             />
