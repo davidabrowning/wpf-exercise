@@ -36,6 +36,7 @@
                 VerticalAlignment="Center"
                 />
             <TextBox 
+                x:Name="inputTextBox"
                 Grid.Row="0"
                 Grid.Column="2"
                 Margin="10"
@@ -45,7 +46,7 @@
                 VerticalAlignment="Center" />
         </Grid>
         <TextBox
-            x:Name="outputListTextBox"
+            x:Name="outputTextBox"
             Text="Bottom text box"
             Padding="10"
             Margin="10"

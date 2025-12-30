@@ -23,7 +23,7 @@ namespace WpfExercise
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            outputListTextBox.Text = outputListTextBox.Text += "\nUpdated";
+            outputTextBox.Text = $"{outputTextBox.Text}\n{inputTextBox.Text}";
         }
     }
 }
