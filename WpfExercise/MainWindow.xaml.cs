@@ -20,5 +20,10 @@ namespace WpfExercise
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            outputListTextBox.Text = outputListTextBox.Text += "\nUpdated";
+        }
     }
 }

@@ -22,7 +22,8 @@
                 Grid.Column="0"
                 Content="Lägg till"
                 HorizontalAlignment="Center"
-                VerticalAlignment="Center"
+                VerticalAlignment="Center" 
+                Click="Button_Click"
                 />
             <Button
                 Grid.Row="0"
@@ -39,6 +40,7 @@
                 VerticalAlignment="Center" />
         </Grid>
         <TextBox
+            x:Name="outputListTextBox"
             Text="Bottom text box"
             HorizontalAlignment="Center"
             VerticalAlignment="Top"
