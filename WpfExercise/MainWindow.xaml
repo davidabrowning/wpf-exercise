@@ -13,12 +13,8 @@
                 <ColumnDefinition Width="25*"></ColumnDefinition>
                 <ColumnDefinition Width="50*"></ColumnDefinition>
             </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition></RowDefinition>
-            </Grid.RowDefinitions>
             <Button
                 x:Name="addButton"
-                Grid.Row="0"
                 Grid.Column="0"
                 Padding="10"
                 Content="Lägg till"
@@ -28,7 +24,6 @@
                 />
             <Button
                 x:Name="clearButton"
-                Grid.Row="0"
                 Grid.Column="1"
                 Padding="10"
                 Content="Rensa"
@@ -38,7 +33,6 @@
                 />
             <TextBox 
                 x:Name="inputTextBox"
-                Grid.Row="0"
                 Grid.Column="2"
                 Padding="10"
                 Text="Skriv något här..." 
