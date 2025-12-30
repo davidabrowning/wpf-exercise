@@ -17,6 +17,7 @@
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
             <Button
+                x:Name="addButton"
                 Grid.Row="0"
                 Grid.Column="0"
                 Margin="10"
@@ -24,9 +25,10 @@
                 Content="Lägg till"
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center" 
-                Click="Button_Click"
+                Click="addButton_Click"
                 />
             <Button
+                x:Name="clearButton"
                 Grid.Row="0"
                 Grid.Column="1"
                 Margin="10"
@@ -34,6 +36,7 @@
                 Content="Rensa"
                 HorizontalAlignment="Center"
                 VerticalAlignment="Center"
+                Click="clearButton_Click"
                 />
             <TextBox 
                 x:Name="inputTextBox"

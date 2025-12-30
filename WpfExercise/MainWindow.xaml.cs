@@ -21,9 +21,17 @@ namespace WpfExercise
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void addButton_Click(object sender, RoutedEventArgs e)
         {
-            outputTextBox.Text = $"{outputTextBox.Text}\n{inputTextBox.Text}";
+            if (outputTextBox.Text == string.Empty)
+                outputTextBox.Text = inputTextBox.Text;
+            else
+                outputTextBox.Text = $"{outputTextBox.Text}\n{inputTextBox.Text}";
+        }
+
+        private void clearButton_Click(object sender, RoutedEventArgs e)
+        {
+            outputTextBox.Text = string.Empty;
         }
     }
 }
