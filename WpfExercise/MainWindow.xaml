@@ -52,7 +52,7 @@
             Padding="10"
             Margin="10"
             VerticalAlignment="Top"
-            BorderBrush="White"
+            BorderThickness="0"
             />
     </StackPanel>
 
