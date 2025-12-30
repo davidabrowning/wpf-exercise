@@ -46,7 +46,9 @@
                 Padding="10"
                 Text="Skriv något här..." 
                 HorizontalAlignment="Center" 
-                VerticalAlignment="Center" />
+                VerticalAlignment="Center" 
+                GotFocus="inputTextBox_GotFocus"
+                />
         </Grid>
         <TextBox
             x:Name="outputTextBox"

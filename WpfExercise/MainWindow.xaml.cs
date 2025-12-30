@@ -33,5 +33,10 @@ namespace WpfExercise
         {
             outputTextBox.Text = string.Empty;
         }
+
+        private void inputTextBox_GotFocus(object sender, RoutedEventArgs e)
+        {
+            inputTextBox.Text = string.Empty;
+        }
     }
 }
