@@ -44,17 +44,18 @@
                 Grid.Column="2"
                 Margin="10"
                 Padding="10"
-                Text="TextBox" 
+                Text="Skriv något här..." 
                 HorizontalAlignment="Center" 
                 VerticalAlignment="Center" />
         </Grid>
         <TextBox
             x:Name="outputTextBox"
-            Text="Bottom text box"
+            Text=""
             Padding="10"
             Margin="10"
             HorizontalAlignment="Center"
             VerticalAlignment="Top"
+            BorderBrush="White"
             />
     </StackPanel>
 
