@@ -6,35 +6,43 @@
         xmlns:local="clr-namespace:WpfExercise"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="25*"></ColumnDefinition>
-            <ColumnDefinition Width="25*"></ColumnDefinition>
-            <ColumnDefinition Width="50*"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
-        </Grid.RowDefinitions>
-        <Button
-            Grid.Row="0"
-            Grid.Column="0"
-            Content="Lägg till"
+    <StackPanel>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="25*"></ColumnDefinition>
+                <ColumnDefinition Width="25*"></ColumnDefinition>
+                <ColumnDefinition Width="50*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Button
+                Grid.Row="0"
+                Grid.Column="0"
+                Content="Lägg till"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                />
+            <Button
+                Grid.Row="0"
+                Grid.Column="1"
+                Content="Rensa"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                />
+            <TextBox 
+                Grid.Row="0"
+                Grid.Column="2"
+                Text="TextBox" 
+                HorizontalAlignment="Center" 
+                VerticalAlignment="Center" />
+        </Grid>
+        <TextBox
+            Text="Bottom text box"
             HorizontalAlignment="Center"
-            VerticalAlignment="Center"
+            VerticalAlignment="Top"
             />
-        <Button
-            Grid.Row="0"
-            Grid.Column="1"
-            Content="Rensa"
-            HorizontalAlignment="Center"
-            VerticalAlignment="Center"
-            />
-        <TextBox 
-            Grid.Row="0"
-            Grid.Column="2"
-            Text="TextBox" 
-            HorizontalAlignment="Center" 
-            VerticalAlignment="Center" />
-    </Grid>
+    </StackPanel>
+
 </Window>
