@@ -16,5 +16,25 @@
             <RowDefinition></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
+        <Button
+            Grid.Row="0"
+            Grid.Column="0"
+            Content="Lägg till"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            />
+        <Button
+            Grid.Row="0"
+            Grid.Column="1"
+            Content="Rensa"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            />
+        <TextBox 
+            Grid.Row="0"
+            Grid.Column="2"
+            Text="TextBox" 
+            HorizontalAlignment="Center" 
+            VerticalAlignment="Center" />
     </Grid>
 </Window>
